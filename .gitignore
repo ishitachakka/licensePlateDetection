@@ -6,3 +6,5 @@ venv/
 env/
 .DS_Store
 debug_outputs/
+-H
+--data-raw
