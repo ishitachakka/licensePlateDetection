@@ -14,7 +14,7 @@ except Exception:
 
 DEBUG_DIR   = os.getenv("DEBUG_DIR",   "debug_outputs")
 IMG_PATH    = os.getenv("IMG_PATH",    "licenseImage.jpg")
-OLLAMA_BASE = os.getenv("OLLAMA_BASE", "http://173.63.99.11:11434")
+OLLAMA_BASE = os.getenv("OLLAMA_BASE", "http://localhost:11434")
 OLLAMA_MODEL= os.getenv("OLLAMA_MODEL","llava:7b")
 
 # ── UK plate correction ────────────────────────────────────────────────────
